@@ -4,6 +4,13 @@
     "description": "Generic Store Provider to attach data to React Components using the react context api",
     "author": "Johann Wagner, Marten Wallewein",
     "main": "build/index.js",
+    "publishConfig": {
+        "registry": "https://registry.npmjs.com",
+        "access": "public"
+    },
+    "files": [
+        "build"
+    ],
     "scripts": {
         "start-dev": "webpack-dev-server --watch --hot --config ./config/webpack.dev.js",
         "lint": "tslint src/**/* ",
