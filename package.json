@@ -1,6 +1,6 @@
 {
     "name": "@creatdevsolutions/cs-react-global-stores",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Generic Store Provider to attach data to React Components using the react context api",
     "author": "Johann Wagner, Marten Wallewein",
     "main": "build/index.js",
