@@ -1,0 +1,34 @@
+.SignaturePad {
+    border: 1px solid gray;
+}
+
+.SignaturePadCard {
+    padding: 20px;
+    margin: 0 auto;
+    display: table;
+}
+
+.SignaturePadCardContainer {
+    width: 100%;
+    display: block;
+}
+
+.ButtonList {
+    margin-top: 1em;
+    display: flex;
+    flex-flow: row;
+    flex-direction: row-reverse;
+}
+
+.SignaturePadConfigurationCard {
+    width: 640px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-bottom: 2em;
+}
+
+.TextfieldGrid {
+    display: grid;
+    grid-gap: 2em;
+    grid-template-columns: 1fr 1fr;
+}

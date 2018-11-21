@@ -1,0 +1,14 @@
+.StoreMonitorTable {
+    display: flex;
+    flex-flow: column;
+}
+
+.StoreMonitorTableRow {
+    display: flex;
+    flex-flow: row;
+}
+
+.StoreMonitorTableRow > * {
+    flex-grow: 1;
+    display: inline-block;
+}
