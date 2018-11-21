@@ -11,6 +11,17 @@
     "files": [
         "build"
     ],
+    "keywords": [
+        "react",
+        "reactjs",
+        "context-api",
+        "redux",
+        "typescript"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/creatdevsolutions/cs-react-global-stores.git"
+    },
     "scripts": {
         "start-dev": "webpack-dev-server --watch --hot --config ./config/webpack.dev.js",
         "lint": "tslint src/**/* ",
