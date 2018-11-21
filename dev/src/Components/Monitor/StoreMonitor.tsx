@@ -1,6 +1,7 @@
 import * as React from "react";
 import {Card, CardContent, Typography} from "@material-ui/core/es";
 import {CardHeader} from "@material-ui/core/es";
+// @ts-ignore
 import style from "./StoreMonitor.css";
 import {MyStore} from "../../Stores/MyStore";
 import {AttachStore} from "../../../../src";
